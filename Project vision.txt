@@ -1,0 +1,74 @@
+Bullet Hell Shooter Game
+
+Vision: 
+
+To build an engaging Bullet Hell shooter game using libgdx, emphasizing both solid Object-Oriented Design Principles and effective design patterns learnt in class. The ultimate goal is to deliver an enjoyable gaming experience for players.
+
+Game Overview: The game will span approximately 2-3 minutes and consist of four distinct phases:
+Regular Play with Grunts
+Mid-Boss Attack
+Additional Grunts
+Final Boss Attack
+Design Patterns to Implement:
+Utilize Factory patterns for spawning game elements.
+Employ the Command pattern to handle collision detection.
+Apply State patterns to manage various behaviors within the game.
+
+Throughout development, adhere to Object-Oriented Design Principles and incorporate essential design patterns, including the Abstract Factory Pattern.
+
+Common Features:
+Score Card:
+Implement a clear and easily visible Score Card to track the player’s progress.
+You can choose between a numerical score, a progress bar, or even a leaderboard, depending on the game’s style.
+User-Friendly Game Menu:
+Create a Game Menu accessible throughout the game.
+Within this menu, provide the following options:
+Start the Game: Offer choices like “New Game,” “Continue,” or level selection.
+Adjust Settings: Include options for sound, difficulty, controls, and other customizable preferences.
+Exit the Game: Ensure players can quit the game gracefully.
+Power-Ups or Supportive Systems:
+Enhance gameplay by introducing temporary power-ups or supportive systems.
+These could be collectible items, abilities triggered by specific actions, or even AI companions that assist the player.
+Maintain balance to provide strategic choices without overshadowing the core gameplay.
+WASD Controls:
+Consider offering WASD controls as an alternative to the default control scheme.
+This caters to players who are comfortable with traditional keyboard movement, thereby expanding accessibility and appeal.
+
+Characters: 
+
+Player:
+
+When the game begins, The player is at the bottom. using the  keyboard, player can move in any direction – up, down, left, right, and even diagonally.
+A player has a normal speed or slow things down. Switching speeds helps you navigate tricky situations and win against enemies.
+A player begins with 3 lives and 100 health points. 
+When enemy bullets hit you, your health goes down. Some bullets hurt more, especially from bosses. 
+When the health points become 0, the player loses his life.
+Each time player loses his life, his life drops by 1 and when the number of lives become 0, the game is over
+The player hits the enemy by firing the bullets.
+When the player successfully defeats the final boss, victory is achieved.
+
+Enemies and Bosses:
+
+In the game, there will be four enemy types: regular enemies A and B, a mid boss, and a final boss. These enemies will shoot fire bullets at the player, move dynamically on screen, and eventually exit as the game progresses. Both enemies and bosses have HP (health points). Enemies and Bosses are killed when their HPs (health points) are reduced to 0, by damage from the player’s projectiles. Bosses may have a separate HP for each stage of attacks,, adding strategic depth to the encounters.. Projectiles fired by regular enemies remain on the screen when their launchers are killed or exits the screen unless a Boss Fight starts. On the other hand, the Bosses’ projectiles disappeared immediately after each stage ended (either by time out or losing HP to 0). Each hit by the hero’s projectiles reduces the enemy’s HP by one point.
+
+Regular Enemy A:
+Regular Enemy A will appear at 00:02. They enter in a diagonal pattern and fire diagonal bullets. These bullets are predictable and easy to dodge. 
+
+Regular Enemy B:
+
+"Regular Enemy B" is introduced after the appearance of Regular Enemy A at 00:20. Five of these enemies exhibit a distinctive horizontal movement pattern, traversing the screen from left to right. Unlike Regular Enemy A, Regular Enemy B does not directly shoot bullets; instead it spawns bullets with random directions at a certain rate. 
+
+Mid boss:
+
+The Mid Boss appeared at 00:48 mark. The bosses have more specific movements, and their attacks are more elaborated and complicated. Specially, the bullets are radioactive dispersion. The Midboss has 100 health points.
+
+Final Boss:
+
+The final boss will appear at 1:30, followed by the boss fight from 01:32 until the end of the video. During this encounter,  The final boss fight has 4 stages, each of which features a different movement pattern and bullet firing pattern. The boss will alternate between two attack stages, mirroring the first and third attack phases seen in the actual game footage (specifically, from 01:36 to 02:22 and 03:07 to 03:52, respectively). These projectiles will occasionally arrange into specific patterns, enhancing both the game’s difficulty and its visual appeal.
+
+
+
+
+
+
+

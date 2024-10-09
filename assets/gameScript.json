@@ -1,0 +1,46 @@
+{
+  "enemies" : [
+    {
+      "enemyOne" : {
+        "size" : [50, 50],
+        "image" : "",
+        "startTime" : 1000,
+        "endTime" : 1020,
+        "coordinates" : [300, 800],
+        "noOfEnemies" : 3,
+        "speed" : 100,
+        "direction" : 2,
+        "movePattern" : "LeftToRight/RightToLeft/DropAndOscillate",
+        "bullets" : [
+          {
+            "size" : [10,10],
+            "pattern" : "dropDown",
+            "speed" : 50,
+            "pauseSecond" : 1
+          }
+        ]
+      }
+    },
+    {
+      "finalBoss" : {
+        "size" : [50, 50],
+        "image" : "",
+        "startTime" : 1000,
+        "endTime" : 1020,
+        "coordinates" : [300, 800],
+        "noOfEnemies" : 3,
+        "speed" : 100,
+        "direction" : 2,
+        "movePattern" : "LeftToRight/RightToLeft/DropAndOscillate",
+        "bullets" : [
+          {
+            "size" : [10,10],
+            "pattern" : "dropDown",
+            "speed" : 50,
+            "pauseSecond" : 1
+          }
+        ]
+      }
+    }
+  ]
+}
